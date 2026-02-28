@@ -44,7 +44,7 @@ export default function LoadingScreen({ onComplete }) {
                     {/* Logo animada */}
                     <div className="relative w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden shadow-[0_0_30px_rgba(212,175,55,0.2)]">
                         <img
-                            src="/logo/image.png"
+                            src={`${import.meta.env.BASE_URL}logo/image.png`}
                             alt="A Jornada"
                             className="absolute inset-0 w-[120%] h-[120%] max-w-none -ml-[10%] -mt-[10%] object-cover object-center invert mix-blend-screen opacity-90"
                         />

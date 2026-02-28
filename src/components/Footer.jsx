@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="relative w-10 h-10 overflow-hidden rounded-md flex items-center justify-center">
                 <img
-                  src="/logo/image.png"
+                  src={`${import.meta.env.BASE_URL}logo/image.png`}
                   alt=""
                   className="absolute inset-0 w-[120%] h-[120%] max-w-none -ml-[10%] -mt-[10%] object-cover object-center pointer-events-none invert mix-blend-screen opacity-70 hover:opacity-100 transition-opacity"
                 />
