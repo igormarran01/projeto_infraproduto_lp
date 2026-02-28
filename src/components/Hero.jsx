@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { hero, HOTMART_URL } from '../data/copy'
 import { ChevronRight } from 'lucide-react'
 
-const HERO_IMAGE = '/hero_img/montanha.jpg'
+const HERO_IMAGE = `${import.meta.env.BASE_URL}hero_img/montanha.jpg`
 
 function HeadlineWithHighlight() {
   const { headline, headlineHighlight } = hero
