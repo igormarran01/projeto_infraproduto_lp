@@ -1,35 +1,18 @@
 # A Jornada — Landing Page
 
-Landing page de conversão para venda do curso na Hotmart, foco em público jurídico.
+> © 2025 Igor Marran. Todos os direitos reservados.  
+> Repositório público para fins de demonstração. Consulte o arquivo [LICENSE](./LICENSE).
 
-## Stack
+---
 
-- Vite (build)
-- React 18
-- Tailwind CSS
-- JavaScript
+## Tecnologias
 
-## Como rodar
-
-```bash
-npm install
-npm run dev
-```
-
-Build para produção:
-
-```bash
-npm run build
-```
-
-## Configuração
-
-- **URL do Hotmart:** edite `HOTMART_URL` em [`src/data/copy.js`](src/data/copy.js) e coloque a URL real da página de checkout.
-- **Textos:** todos os copy (headline, dor, solução, depoimentos, FAQ) estão em [`src/data/copy.js`](src/data/copy.js).
-- **Logos de prova social:** em `copy.js`, na propriedade `prova.logos`, adicione `src: '/caminho/logo.png'` para cada parceiro quando tiver as imagens em `public/`.
-
-## Estrutura
-
-- **Hero** → **Dor** → **Solução** (3 blocos) → **Prova** (métricas + depoimentos + logos) → **CTA** → **FAQ** → **CTA** → **Footer**
-- Uma rolagem só, sem modais obrigatórios.
-- Mobile-first; sem uso de `localStorage` ou `sessionStorage`.
+| Tecnologia | Versão | Função |
+|---|---|---|
+| [React](https://react.dev) | 18 | UI e componentização |
+| [Vite](https://vitejs.dev) | 5 | Bundler e servidor de desenvolvimento |
+| [Tailwind CSS](https://tailwindcss.com) | 3 | Estilização utilitária |
+| [Framer Motion](https://www.framer.com/motion/) | 11 | Animações e transições |
+| [Lucide React](https://lucide.dev) | — | Ícones |
+| [Google Fonts](https://fonts.google.com) | — | Tipografia (Inter + fonte serif) |
+| GitHub Pages + GitHub Actions | — | Hospedagem e deploy contínuo |
